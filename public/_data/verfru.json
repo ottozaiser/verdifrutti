@@ -1,3 +1,20 @@
 {
-	"verfru": []
+  "verfru": [
+    {
+      "title": "Naranja",
+      "season": [
+        "0"
+      ],
+      "content": "fasdfasd",
+      "link": "fasdfasdfas"
+    },
+    {
+      "title": "Pera",
+      "season": [
+        "2"
+      ],
+      "content": "Real",
+      "link": "fasdfasdfas"
+    }
+  ]
 }
