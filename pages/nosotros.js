@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 export default function Nosotros() {
 	return (
 		<div>
@@ -7,7 +7,7 @@ export default function Nosotros() {
 				<title>Nosotros</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<Nav />
+			<Header />
 			<main className="container mx-auto px-8 mt-5">
 				<h1 className="text-4xl text-accent-1">Somos vertempo</h1>
 				<p>

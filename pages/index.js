@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 import Season from "../components/Season";
+import Vegetal from "../components/Vegetal";
 import axios from "axios";
 
 export default function Home() {
@@ -10,15 +11,14 @@ export default function Home() {
 		setSeason(seasonIndex);
 	}
 
-	const [allVerdFrut, setAllVerdFrut] = useState([]);
+	const [allVegetables, setAllVegetables] = useState([]);
 
 	useEffect(() => {
 		axios
 			.get(`/_data/verfru.json`)
 			.then((res) => {
 				const data = res.data.verfru;
-				setAllVerdFrut(data);
-				console.log(data);
+				setAllVegetables(data);
 			})
 			.catch((error) => {
 				console.log(error);
@@ -28,17 +28,19 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>wtf</title>
+				<title>vertempo</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<Nav />
-			<main className="container mx-auto mt-6">
+			<Header />
+			<main className="container">
 				<Season seasonChange={onSeasonChange} />
-				{allVerdFrut
-					.filter((vf) => vf.season.includes(String(season)))
-					.map((vf, index) => (
-						<li key={index}>{vf.title}</li>
-					))}
+				<div className="veggieGrid">
+					{allVegetables
+						.filter((vf) => vf.season.includes(String(season)))
+						.map((vf, index) => (
+							<Vegetal key={index} title={vf.title} content={vf.content} link={vf.link} image={vf.image} />
+						))}
+				</div>
 			</main>
 		</div>
 	);

@@ -1,4 +1,4 @@
-import "../styles/globals.css";
+import "../styles/globals.scss";
 
 function vertempo({ Component, pageProps }) {
 	return <Component {...pageProps} />;

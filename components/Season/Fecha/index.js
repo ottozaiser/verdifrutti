@@ -21,27 +21,15 @@ export default function Fecha(props) {
 	}, [state]);
 
 	return (
-		<div className="flex items-center justify-center">
-			<input
-				className="appearance-none border rounded text-4xl p-8 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-48 text-center"
-				aria-label="Día"
-				name="day"
-				type="number"
-				min="1"
-				max="31"
-				defaultValue={state.day}
-				onChange={onChangeDate}
-			/>
-			<input
-				className="appearance-none border rounded text-4xl p-8 text-gray-700 leading-tight focus:outline-none focus:shadow-outline w-48 text-center"
-				aria-label="Mes"
-				name="month"
-				type="number"
-				min="1"
-				max="12"
-				defaultValue={state.month}
-				onChange={onChangeDate}
-			/>
+		<div className="fecha">
+			<div className="dia">
+				<label htmlFor="dia">Día</label>
+				<input aria-label="Día" id="dia" name="day" type="number" min="1" max="31" defaultValue={state.day} onChange={onChangeDate} />
+			</div>
+			<div className="mes">
+				<label htmlFor="mes">Mes</label>
+				<input aria-label="Mes" id="mes" name="month" type="number" min="1" max="12" defaultValue={state.month} onChange={onChangeDate} />
+			</div>
 		</div>
 	);
 }

@@ -30,7 +30,7 @@ export default function Season(props) {
 	return (
 		<div>
 			<Fecha changeDate={onChangeDate} />
-			<div className="text-4xl p-8 text-gray-700 leading-tight text-center">Temporada: {season}</div>
+			<h2 className="temporada">Temporada: {season}</h2>
 		</div>
 	);
 }
