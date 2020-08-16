@@ -1,138 +1,971 @@
 {
-	"verfru": [
-		{ "title": "Tomates", "season": ["0"], "end": false },
-		{ "title": "Pimientos morrones", "season": ["0"], "end": false },
-		{ "title": "Pimientos picantes", "season": ["0"], "end": false },
-		{ "title": "Berenjenas", "season": ["0"], "end": false },
-		{ "title": "Papas arias", "season": ["0"], "end": false },
-		{ "title": "Choclo", "season": ["0"], "end": false },
-		{ "title": "Hierbas", "season": ["0"], "end": false },
-		{ "title": "Chauchas", "season": ["0"], "end": false },
-		{ "title": "Zucchini", "season": ["0"], "end": false },
-		{ "title": "Pepino", "season": ["0"], "end": false },
-		{ "title": "Melón", "season": ["0"], "end": false },
-		{ "title": "Zapallito", "season": ["0"], "end": false },
-		{ "title": "Uchuva", "season": ["0"], "end": false },
-		{ "title": "Guinda", "season": ["0"], "end": false },
-		{ "title": "Sandía", "season": ["0"], "end": false },
-		{ "title": "Damascos", "season": ["0"], "end": false },
-		{ "title": "Duraznos", "season": ["0"], "end": false },
-		{ "title": "Ciruelas", "season": ["0"], "end": false },
-		{ "title": "Pelones", "season": ["0"], "end": false },
-		{ "title": "Sauco", "season": ["0"], "end": false },
-		{ "title": "Casís", "season": ["0"], "end": false },
-		{ "title": "Frambuesa", "season": ["0"], "end": false },
-		{ "title": "Zarzamora", "season": ["0"], "end": false },
-		{ "title": "Banana", "season": ["0"], "end": false },
-		{ "title": "Grosellas", "season": ["0"], "end": false },
-		{ "title": "Higo", "season": ["0"], "end": false },
-		{ "title": "Maracuyá", "season": ["0"], "end": false },
-		{ "title": "Ananá", "season": ["0"], "end": false },
-		{ "title": "Mango", "season": ["0"], "end": false },
-		{ "title": "Peras", "season": ["0"], "end": true },
-		{ "title": "Manzanas", "season": ["0"], "end": true },
-		{ "title": "Rosella", "season": ["0"], "end": true },
-		{ "title": "Ruibarbo", "season": ["0"], "end": true },
-		{ "title": "Uvas", "season": ["0"], "end": true },
-		{ "title": "Tomate de árbol", "season": ["0"], "end": true },
-		{ "title": "Membrillo", "season": ["1"], "end": false },
-		{ "title": "Zapallos y calabazas", "season": ["1"], "end": false },
-		{ "title": "Cayote", "season": ["1"], "end": false },
-		{ "title": "Caqui", "season": ["1"], "end": false },
-		{ "title": "Papas", "season": ["1"], "end": false },
-		{ "title": "Kiwi", "season": ["1"], "end": false },
-		{ "title": "Mamón/Papaya", "season": ["1"], "end": false },
-		{ "title": "Rosa mosqueta", "season": ["1"], "end": false },
-		{ "title": "Guayaba", "season": ["1"], "end": false },
-		{ "title": "Carambola", "season": ["1"], "end": false },
-		{ "title": "Tuna", "season": ["1"], "end": false },
-		{ "title": "Feijoa", "season": ["1"], "end": false },
-		{ "title": "Nashi", "season": ["1"], "end": false },
-		{ "title": "Castañas", "season": ["1"], "end": false },
-		{ "title": "Paltas", "season": ["1"], "end": false },
-		{ "title": "Granadas", "season": ["1"], "end": false },
-		{ "title": "Aceitunas", "season": ["1"], "end": false },
-		{ "title": "Okra", "season": ["1"], "end": false },
-		{ "title": "Maní", "season": ["1"], "end": false },
-		{ "title": "Calahorras", "season": ["1"], "end": false },
-		{ "title": "Ají vinagre", "season": ["1"], "end": false },
-		{ "title": "Porotos frescos", "season": ["1"], "end": false },
-		{ "title": "Caña de azucar", "season": ["1"], "end": false },
-		{ "title": "Radiccio", "season": ["1"], "end": false },
-		{ "title": "Achicoria", "season": ["1"], "end": false },
-		{ "title": "Chaucha japonesa", "season": ["1"], "end": false },
-		{ "title": "Mandioca", "season": ["1"], "end": false },
-		{ "title": "Envidias", "season": ["1"], "end": false },
-		{ "title": "Borraja", "season": ["1"], "end": false },
-		{ "title": "Topinambur", "season": ["1"], "end": false },
-		{ "title": "Rúcula", "season": ["1"], "end": false },
-		{ "title": "Acedera", "season": ["1"], "end": false },
-		{ "title": "Escarolas", "season": ["1"], "end": false },
-		{ "title": "Berros", "season": ["1"], "end": false },
-		{ "title": "Nabiza", "season": ["1"], "end": false },
-		{ "title": "Diente de León", "season": ["1"], "end": false },
-		{ "title": "Cúrcuma", "season": ["1"], "end": false },
-		{ "title": "Gírgolas", "season": ["1"], "end": false },
-		{ "title": "Portobello", "season": ["1"], "end": false },
-		{ "title": "Shitake", "season": ["1"], "end": false },
-		{ "title": "Dátiles", "season": ["1"], "end": true },
-		{ "title": "Avellanas", "season": ["1"], "end": true },
-		{ "title": "Almendras", "season": ["1"], "end": true },
-		{ "title": "Pistachos", "season": ["1"], "end": true },
-		{ "title": "Nueces", "season": ["1"], "end": true },
-		{ "title": "Mandarinas", "season": ["1"], "end": true },
-		{ "title": "Batata y boniato", "season": ["1"], "end": true },
-		{ "title": "Acelgas", "season": ["1"], "end": true },
-		{ "title": "Apio", "season": ["1"], "end": true },
-		{ "title": "Remolachas", "season": ["1"], "end": true },
-		{ "title": "Zanahoria", "season": ["1"], "end": true },
-		{ "title": "Hijono", "season": ["1"], "end": true },
-		{ "title": "Rabanitos", "season": ["1"], "end": true },
-		{ "title": "Narajas", "season": ["2"], "end": false },
-		{ "title": "Sanguíneas (buscar)", "season": ["2"], "end": false },
-		{ "title": "Mandarinas", "season": ["2"], "end": false },
-		{ "title": "Pomelos", "season": ["2"], "end": false },
-		{ "title": "Limón", "season": ["2"], "end": false },
-		{ "title": "Limón Tahití", "season": ["2"], "end": false },
-		{ "title": "Lima dulce", "season": ["2"], "end": false },
-		{ "title": "Espicana", "season": ["2"], "end": false },
-		{ "title": "Apionabo", "season": ["2"], "end": false },
-		{ "title": "Quinotos", "season": ["2"], "end": false },
-		{ "title": "Pastinaca", "season": ["2"], "end": false },
-		{ "title": "Cardo", "season": ["2"], "end": false },
-		{ "title": "Lechugas", "season": ["2"], "end": false },
-		{ "title": "Borraja", "season": ["2"], "end": false },
-		{ "title": "Nabo", "season": ["2"], "end": false },
-		{ "title": "Romanesco", "season": ["2"], "end": false },
-		{ "title": "Brócoli", "season": ["2"], "end": false },
-		{ "title": "Coliflor", "season": ["2"], "end": false },
-		{ "title": "Kale", "season": ["2"], "end": false },
-		{ "title": "Mizuna", "season": ["2"], "end": false },
-		{ "title": "Mostaza", "season": ["2"], "end": false },
-		{ "title": "Hakusay", "season": ["2"], "end": false },
-		{ "title": "Repollo blanco y colorado", "season": ["2"], "end": false },
-		{ "title": "Acelga japonesa", "season": ["2"], "end": false },
-		{ "title": "Repollitos de bruselas", "season": ["2"], "end": false },
-		{ "title": "Berza", "season": ["2"], "end": false },
-		{ "title": "Alcaucil", "season": ["2"], "end": true },
-		{ "title": "Frutillas", "season": ["2"], "end": true },
-		{ "title": "Habas", "season": ["3"], "end": false },
-		{ "title": "Arvejas", "season": ["3"], "end": false },
-		{ "title": "Cebolla de verdeo", "season": ["3"], "end": false },
-		{ "title": "Cebolla rosa", "season": ["3"], "end": false },
-		{ "title": "Cebolla blanca", "season": ["3"], "end": false },
-		{ "title": "Puerro", "season": ["3"], "end": false },
-		{ "title": "Ajo", "season": ["3"], "end": false },
-		{ "title": "Espárragos", "season": ["3"], "end": false },
-		{ "title": "Echalote", "season": ["3"], "end": false },
-		{ "title": "Frutillas", "season": ["3"], "end": false },
-		{ "title": "Arándanos", "season": ["3"], "end": false },
-		{ "title": "Moras", "season": ["3"], "end": false },
-		{ "title": "Nísperos", "season": ["3"], "end": false },
-		{ "title": "Alcaparras", "season": ["3"], "end": false },
-		{ "title": "Hierbas aromáticas", "season": ["3"], "end": false },
-		{ "title": "Damasco", "season": ["3"], "end": true },
-		{ "title": "Duraznos", "season": ["3"], "end": true },
-		{ "title": "Cerezas", "season": ["3"], "end": true }
-	]
+  "verfru": [
+    {
+      "title": "Tomates",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "content": "",
+      "link": "https://cookpad.com/ar/buscar/tomate",
+      "image": "/public/_data/media/tomate.png"
+    },
+    {
+      "title": "Morrones",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/morr%C3%B3n",
+      "image": "/public/_data/media/morron.png"
+    },
+    {
+      "title": "Pimientos",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/pimiento",
+      "image": "/public/_data/media/aji-picante.png"
+    },
+    {
+      "title": "Berenjenas",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/berenjena",
+      "image": "/public/_data/media/berenjena.png"
+    },
+    {
+      "title": "Papas",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/papas",
+      "image": "/public/_data/media/papas.png"
+    },
+    {
+      "title": "Choclo",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "image": "/public/_data/media/choclo.png",
+      "link": "https://cookpad.com/ar/buscar/choclo"
+    },
+    {
+      "title": "Hierbas",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Chauchas",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "image": "/public/_data/media/chaucha.png",
+      "link": "https://cookpad.com/ar/buscar/chaucha"
+    },
+    {
+      "title": "Zucchini",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "image": "/public/_data/media/zuccini.png",
+      "link": "https://cookpad.com/ar/buscar/zucchini"
+    },
+    {
+      "title": "Pepino",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "image": "/public/_data/media/pepino.png",
+      "link": "https://cookpad.com/ar/buscar/pepino"
+    },
+    {
+      "title": "Melón",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/mel%C3%B3n",
+      "image": "/public/_data/media/melon.png"
+    },
+    {
+      "title": "Zapallito",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/zapallito",
+      "image": "/public/_data/media/zapallito.png"
+    },
+    {
+      "title": "Uchuva",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/uchuva",
+      "image": "/public/_data/media/uchuva.png"
+    },
+    {
+      "title": "Cerezas",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/cereza",
+      "image": "/public/_data/media/cereza.png"
+    },
+    {
+      "title": "Sandía",
+      "season": [
+        "0"
+      ],
+      "end": false,
+      "link": "https://cookpad.com/ar/buscar/sand%C3%ADa",
+      "image": "/public/_data/media/sandía.png"
+    },
+    {
+      "title": "Damascos",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Duraznos",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Ciruelas",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Pelones",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Sauco",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Casís",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Frambuesa",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Zarzamora",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Banana",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Grosellas",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Higo",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Maracuyá",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Ananá",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Mango",
+      "season": [
+        "0"
+      ],
+      "end": false
+    },
+    {
+      "title": "Peras",
+      "season": [
+        "0"
+      ],
+      "end": true
+    },
+    {
+      "title": "Manzanas",
+      "season": [
+        "0"
+      ],
+      "end": true
+    },
+    {
+      "title": "Rosella",
+      "season": [
+        "0"
+      ],
+      "end": true
+    },
+    {
+      "title": "Ruibarbo",
+      "season": [
+        "0"
+      ],
+      "end": true
+    },
+    {
+      "title": "Uvas",
+      "season": [
+        "0"
+      ],
+      "end": true
+    },
+    {
+      "title": "Tomate de árbol",
+      "season": [
+        "0"
+      ],
+      "end": true
+    },
+    {
+      "title": "Membrillo",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Zapallos y calabazas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Cayote",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Caqui",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Papas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Kiwi",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Mamón/Papaya",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Rosa mosqueta",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Guayaba",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Carambola",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Tuna",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Feijoa",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Nashi",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Castañas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Paltas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Granadas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Aceitunas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Okra",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Maní",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Calahorras",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Ají vinagre",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Porotos frescos",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Caña de azucar",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Radiccio",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Achicoria",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Chaucha japonesa",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Mandioca",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Envidias",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Borraja",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Topinambur",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Rúcula",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Acedera",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Escarolas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Berros",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Nabiza",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Diente de León",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Cúrcuma",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Gírgolas",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Portobello",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Shitake",
+      "season": [
+        "1"
+      ],
+      "end": false
+    },
+    {
+      "title": "Dátiles",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Avellanas",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Almendras",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Pistachos",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Nueces",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Mandarinas",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Batata y boniato",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Acelgas",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Apio",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Remolachas",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Zanahoria",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Hijono",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Rabanitos",
+      "season": [
+        "1"
+      ],
+      "end": true
+    },
+    {
+      "title": "Narajas",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Sanguíneas (buscar)",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Mandarinas",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Pomelos",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Limón",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Limón Tahití",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Lima dulce",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Espicana",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Apionabo",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Quinotos",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Pastinaca",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Cardo",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Lechugas",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Borraja",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Nabo",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Romanesco",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Brócoli",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Coliflor",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Kale",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Mizuna",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Mostaza",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Hakusay",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Repollo blanco y colorado",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Acelga japonesa",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Repollitos de bruselas",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Berza",
+      "season": [
+        "2"
+      ],
+      "end": false
+    },
+    {
+      "title": "Alcaucil",
+      "season": [
+        "2"
+      ],
+      "end": true
+    },
+    {
+      "title": "Frutillas",
+      "season": [
+        "2"
+      ],
+      "end": true
+    },
+    {
+      "title": "Habas",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Arvejas",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Cebolla de verdeo",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Cebolla rosa",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Cebolla blanca",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Puerro",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Ajo",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Espárragos",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Echalote",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Frutillas",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Arándanos",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Moras",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Nísperos",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Alcaparras",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Hierbas aromáticas",
+      "season": [
+        "3"
+      ],
+      "end": false
+    },
+    {
+      "title": "Damasco",
+      "season": [
+        "3"
+      ],
+      "end": true
+    },
+    {
+      "title": "Duraznos",
+      "season": [
+        "3"
+      ],
+      "end": true
+    },
+    {
+      "title": "Cerezas",
+      "season": [
+        "3"
+      ],
+      "end": true
+    }
+  ]
 }
