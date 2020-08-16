@@ -18,6 +18,7 @@ export default function Home() {
 			.then((res) => {
 				const data = res.data.verfru;
 				setAllVerdFrut(data);
+				console.log(data);
 			})
 			.catch((error) => {
 				console.log(error);
@@ -33,9 +34,8 @@ export default function Home() {
 			<Nav />
 			<main className="container mx-auto mt-6">
 				<Season seasonChange={onSeasonChange} />
-				{season}
 				{allVerdFrut
-					.filter((vf) => vf.season.includes(season))
+					.filter((vf) => vf.season.includes(String(season)))
 					.map((vf, index) => (
 						<li key={index}>{vf.title}</li>
 					))}
