@@ -28,6 +28,13 @@ a {
 	h1 {
 		font-weight: 600;
 		margin: 0;
+		font-size: 1.5em;
+	}
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
 	}
 }
 
@@ -45,14 +52,24 @@ a {
 	margin-right: 8px;
 }
 
+.footer {
+	background-color: lightgrey;
+	margin-top: 48px;
+	.container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+}
 .menu {
 	li {
 		display: inline-block;
 		a {
-			color: #c6f6d5;
+			color: #333;
 			margin-right: 8px;
 			&:hover {
-				color: white;
+				color: black;
 			}
 		}
 		&:last-child {
@@ -88,33 +105,28 @@ a {
 	}
 }
 
-.fecha {
-	width: 100%;
-	margin: 16px 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	div {
-		&:first-child {
-			margin-right: 8px;
-		}
-		label {
-			display: block;
-			background-color: black;
-			color: white;
-			padding: 8px;
-		}
-		input {
-			text-align: center;
-			font-size: 2em;
-			padding: 16px;
-			border-radius: 0;
-			border: 1px solid gray;
-		}
-	}
-}
-
 .temporada {
 	text-align: center;
 	margin: 48px 0;
+}
+
+.selectGroup {
+	margin: 16px 0;
+}
+.seasonSelect {
+	width: 100%;
+	margin: 16px 0;
+	font-size: 2em;
+	padding: 16px;
+	line-height: 1.5;
+	border-radius: 8px;
+	background-clip: padding-box;
+	border: 2px solid #48bb78;
+	&:focus {
+		color: #495057;
+		background-color: #fff;
+		border-color: green;
+		outline: 0;
+		box-shadow: 0 0 0 0.2rem rgb(72, 187, 120, 0.25);
+	}
 }

@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
 	return (
 		<header className="header">
-			<nav className="nav container">
+			<div className="container">
 				<div className="brand">
 					<h1>
 						<Link href="/">
@@ -11,14 +11,8 @@ export default function Header() {
 						</Link>
 					</h1>
 				</div>
-				<ul className="menu">
-					<li>
-						<Link href="/nosotros">
-							<a>Nosotros</a>
-						</Link>
-					</li>
-				</ul>
-			</nav>
+				<div className="tagline">Frutas y verduras en temporada</div>
+			</div>
 		</header>
 	);
 }

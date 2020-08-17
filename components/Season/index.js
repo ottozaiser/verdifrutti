@@ -1,36 +1,55 @@
 import { useState, useEffect } from "react";
-import Fecha from "./Fecha";
 
 export default function Season(props) {
-	const [season, setSeason] = useState();
+	const currentDate = new Date();
+	const currentDay = currentDate.getDate();
+	const currentMonth = currentDate.getMonth() + 1;
+	const [state, setState] = useState({
+		day: currentDay,
+		month: currentMonth,
+		currentSeason: "",
+	});
+	const [seasonIndex, setSeasonIndex] = useState();
 	const seasonName = ["verano", "otoño", "invierno", "primavera"];
-
-	function checkSeason(cM, cD) {
-		var seasonIndex;
+	const seasonEmoji = ["☀️", "🍂", "❄️", "🌼"];
+	function checkSeasonByDate(cM, cD) {
+		var index;
 		if ((cM == 12 && cD >= 21) || cM < 3 || (cM == 3 && cD <= 20)) {
-			seasonIndex = 0;
+			index = 0;
 		}
 		if ((cM == 3 && cD >= 21) || (cM > 3 && cM < 6) || (cM == 6 && cD <= 20)) {
-			seasonIndex = 1;
+			index = 1;
 		}
 		if ((cM == 6 && cD >= 21) || (cM > 6 && cM < 9) || (cM == 9 && cD <= 20)) {
-			seasonIndex = 2;
+			index = 2;
 		}
 		if ((cM == 9 && cD >= 21) || (cM > 9 && cM < 12) || (cM == 12 && cD <= 20)) {
-			seasonIndex = 3;
+			index = 3;
 		}
-		setSeason(seasonName[seasonIndex]);
-		props.seasonChange(seasonIndex);
+		setSeasonIndex(index);
+		setState({ currentSeason: index });
+		props.seasonChange(index);
 	}
-
-	function onChangeDate(month, day) {
-		checkSeason(month, day);
+	useEffect(() => {
+		checkSeasonByDate(state.month, state.day);
+	}, []);
+	function handleChange(event) {
+		setSeasonIndex(event.target.value);
+		props.seasonChange(event.target.value);
 	}
-
 	return (
-		<div>
-			<Fecha changeDate={onChangeDate} />
-			<h2 className="temporada">Temporada: {season}</h2>
+		<div className="selectGroup">
+			<span className="currently">
+				Actualmente estás en {seasonEmoji[state.currentSeason]} {seasonName[state.currentSeason]}{" "}
+			</span>
+			<select aria-label="estación" className="seasonSelect" value={String(seasonIndex)} onChange={handleChange}>
+				{seasonName.map((x, y) => (
+					<option key={y} value={y}>
+						{seasonEmoji[y]}
+						{x}
+					</option>
+				))}
+			</select>
 		</div>
 	);
 }

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 export default function Nosotros() {
 	return (
 		<div>
@@ -27,6 +28,7 @@ export default function Nosotros() {
 					dolore ea laboriosam unde, repellendus eos neque repellat illo impedit harum!
 				</p>
 			</main>
+			<Footer />
 		</div>
 	);
 }
