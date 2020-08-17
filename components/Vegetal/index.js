@@ -17,11 +17,18 @@ export default function Vegetal(props) {
 		setState({ flipped: false });
 	}, [props]);
 
+	const onKeyPress = (e) => {
+		const enterOrSpace = e.key === "Enter" || e.key === " " || e.key === "Spacebar" || e.which === 13 || e.which === 32;
+		if (enterOrSpace) {
+			e.preventDefault();
+			toggleClass();
+		}
+	};
 	return (
 		<div className="card">
 			<div className={`card-inner ${state.flipped ? "is-flipped" : ""}`}>
-				<div className="card-front" onClick={toggleClass}>
-					{props.image ? <img alt="" src={props.image} /> : null}
+				<div role="button" className="card-front" onClick={toggleClass} onKeyDown={onKeyPress} tabIndex="0">
+					<div className="card-image" style={{ backgroundImage: `url('${props.image ? props.image : ""}')` }}></div>
 					<div className="card-content">
 						<h3 className="card-title">{props.title}</h3>
 						<div className="card-temporada">
@@ -33,11 +40,17 @@ export default function Vegetal(props) {
 						</div>
 					</div>
 				</div>
-				<div className="card-back">
+				<div
+					role="button"
+					className="card-back"
+					onClick={toggleClass}
+					onKeyDown={onKeyPress}
+					tabIndex="0"
+					style={{ backgroundImage: `url('${props.image ? props.image : ""}')` }}
+				>
 					<div className="card-content">
 						<h3 className="card-title">{props.title}</h3>
 						<div className="card-temporada">
-							<p>Temporada:</p>
 							{availableSeason.map((value, index) => (
 								<li key={index} className="card-seasons">
 									<span className="emoji" aria-hidden="true">
@@ -56,9 +69,9 @@ export default function Vegetal(props) {
 								Recetas en Cookpad<span className="sr-only">con {props.title}</span>
 							</a>
 						) : null}
-						<button className="card-flip-btn btn" onClick={toggleClass}>
+						{/* <button className="card-flip-btn btn" onClick={toggleClass}>
 							Dar vuelta <span className="sr-only">{props.title}</span>
-						</button>
+						</button> */}
 					</div>
 				</div>
 			</div>

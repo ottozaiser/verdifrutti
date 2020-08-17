@@ -29,19 +29,21 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>vertempo</title>
-				<link rel="icon" href="/favicon.ico" />
+				<title>vertempo - frutas y verduras de temporada en Argentina</title>
 			</Head>
 			<Header />
 			<main className="container">
 				<Season seasonChange={onSeasonChange} />
-				<div className="veggieGrid">
+				<ul className="veggieGrid">
 					{allVegetables
+						.sort((a, b) => (a.title > b.title ? 1 : -1))
 						.filter((vf) => vf.season.includes(String(season)))
 						.map((vf, index) => (
-							<Vegetal key={index} title={vf.title} content={vf.content} link={vf.link} image={vf.image} season={vf.season} end={vf.end} />
+							<li key={index}>
+								<Vegetal title={vf.title} content={vf.content} link={vf.link} image={vf.image} season={vf.season} end={vf.end} />
+							</li>
 						))}
-				</div>
+				</ul>
 			</main>
 			<Footer />
 		</div>

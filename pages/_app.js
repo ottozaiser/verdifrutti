@@ -1,3 +1,4 @@
+import "normalize.css"; // Note this
 import "../styles/globals.scss";
 
 function vertempo({ Component, pageProps }) {
