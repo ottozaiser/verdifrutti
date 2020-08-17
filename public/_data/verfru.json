@@ -31,7 +31,7 @@
 		},
 		{
 			"title": "Papas",
-			"season": ["0"],
+			"season": ["0", "1"],
 			"end": false,
 			"link": "https://cookpad.com/ar/buscar/papas",
 			"image": "/_data/media/papas.png"
@@ -221,11 +221,6 @@
 		},
 		{
 			"title": "Caqui",
-			"season": ["1"],
-			"end": false
-		},
-		{
-			"title": "Papas",
 			"season": ["1"],
 			"end": false
 		},
@@ -475,7 +470,7 @@
 			"end": false
 		},
 		{
-			"title": "Sanguíneas (buscar)",
+			"title": "Naranjas Sanguinas",
 			"season": ["2"],
 			"end": false
 		},

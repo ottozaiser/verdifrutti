@@ -39,7 +39,7 @@ export default function Home() {
 					{allVegetables
 						.filter((vf) => vf.season.includes(String(season)))
 						.map((vf, index) => (
-							<Vegetal key={index} title={vf.title} content={vf.content} link={vf.link} image={vf.image} />
+							<Vegetal key={index} title={vf.title} content={vf.content} link={vf.link} image={vf.image} season={vf.season} end={vf.end} />
 						))}
 				</div>
 			</main>

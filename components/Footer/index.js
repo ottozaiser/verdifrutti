@@ -11,7 +11,10 @@ export default function Footer() {
 						</li>
 					</ul>
 				</nav>
-				<div className="made">Hecho con ❤️</div>
+				<div className="made">
+					Hecho con <span aria-hidden="true">❤️</span>
+					<span className="sr-only">amor</span> por <a href="https://otto.ar/">Otto</a>
+				</div>
 			</div>
 		</footer>
 	);

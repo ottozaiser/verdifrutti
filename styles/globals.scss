@@ -7,11 +7,56 @@ body {
 
 a {
 	color: inherit;
-	text-decoration: none;
+	&:hover,
+	&:focus {
+		text-decoration: none;
+	}
 }
 
 * {
 	box-sizing: border-box;
+}
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	overflow: visible;
+	user-select: none;
+	text-indent: 0px;
+	border-radius: 0.3rem;
+	display: block;
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	border-radius: 20px;
+	font-size: 0.8em;
+	padding: 8px;
+	text-decoration: none;
+	border: 1px solid #ccc;
+	background-color: rgba(255, 255, 255, 0.6);
+	&:hover,
+	&:focus {
+		border: 1px solid #ccc;
+		background-color: white;
+	}
+}
+.btn-ghost {
+	border: 1px solid #aaa;
+	background-color: transparent;
+	&:hover,
+	&:focus {
+		background-color: rgba(255, 255, 255, 0.4);
+	}
 }
 
 .container {
@@ -24,11 +69,18 @@ a {
 	background-color: #48bb78;
 	color: white;
 	letter-spacing: -0.025em;
-	padding: 1.5rem;
+	padding: 16px 0;
 	h1 {
 		font-weight: 600;
 		margin: 0;
 		font-size: 1.5em;
+		a {
+			text-decoration: none;
+			&:hover,
+			&:focus {
+				color: #cdffe2;
+			}
+		}
 	}
 	.container {
 		display: flex;
@@ -36,13 +88,6 @@ a {
 		justify-content: space-between;
 		flex-wrap: wrap;
 	}
-}
-
-.nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
 }
 
 .brand {
@@ -55,14 +100,26 @@ a {
 .footer {
 	background-color: lightgrey;
 	margin-top: 48px;
+	padding: 16px 0;
 	.container {
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
+		// justify-content: space-between;
+		justify-content: center;
 		flex-wrap: wrap;
+		padding: 16px 0;
 	}
 }
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display: none;
+}
+
 .menu {
+	padding: 0;
 	li {
 		display: inline-block;
 		a {
@@ -83,13 +140,11 @@ a {
 .veggieGrid {
 	display: grid;
 	grid-gap: 10px;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
 
 .card {
-	border: 1px solid lightgrey;
-	border-radius: 8px;
-
+	perspective: 1000px;
 	h3 {
 		margin: 0;
 	}
@@ -100,8 +155,90 @@ a {
 		border-top-left-radius: 8px;
 	}
 
-	.content {
+	.card-content {
 		padding: 16px;
+	}
+	.card-inner {
+		position: absolute;
+		transition: transform 0.3s;
+		transform-style: preserve-3d;
+		position: relative;
+		width: 100%;
+		height: 100%;
+	}
+
+	.card-inner.is-flipped {
+		transform: rotateY(180deg);
+		.card-back {
+			visibility: visible;
+			opacity: 1;
+		}
+	}
+
+	.card-front {
+		border-radius: 8px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		border: 1px solid lightgrey;
+		background: white;
+		cursor: pointer;
+		width: 100%;
+		height: 100%;
+		min-height: 220px;
+		.card-content {
+			.card-temporada {
+				position: absolute;
+				top: 16px;
+				right: 0;
+				padding: 4px;
+				background-color: rgba(255, 255, 255, 0.7);
+				border-radius: 16px 0px 0px 16px;
+			}
+		}
+	}
+
+	.card-back {
+		opacity: 0;
+		transition: opacity 0.3s, visibility 0.3s;
+		visibility: hidden;
+		position: absolute;
+		background: lightgrey;
+		border: 1px solid lightgrey;
+		border-radius: 8px;
+		top: 0;
+		right: 0;
+		width: 100%;
+		height: 100%;
+		padding: 16px;
+		transform: rotateY(180deg);
+
+		.card-content {
+			background: #ddd;
+			border-radius: 4px;
+			border: 1px solid #aaa;
+			width: 100%;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			.card-temporada {
+				flex: 1;
+
+				.card-seasons {
+					list-style-type: none;
+					.text {
+						font-size: 0.8em;
+						text-transform: uppercase;
+					}
+				}
+			}
+
+			.card-recipe-btn {
+				margin: 16px 0;
+			}
+			.card-flip-btn {
+			}
+		}
 	}
 }
 
@@ -122,6 +259,7 @@ a {
 	border-radius: 8px;
 	background-clip: padding-box;
 	border: 2px solid #48bb78;
+	background-color: #fff;
 	&:focus {
 		color: #495057;
 		background-color: #fff;

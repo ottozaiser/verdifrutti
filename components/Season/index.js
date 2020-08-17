@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import * as Constants from "../../constants";
 
 export default function Season(props) {
 	const currentDate = new Date();
@@ -10,8 +11,8 @@ export default function Season(props) {
 		currentSeason: "",
 	});
 	const [seasonIndex, setSeasonIndex] = useState();
-	const seasonName = ["verano", "otoño", "invierno", "primavera"];
-	const seasonEmoji = ["☀️", "🍂", "❄️", "🌼"];
+	const seasonName = Constants.seasonName;
+	const seasonEmoji = Constants.seasonEmoji;
 	function checkSeasonByDate(cM, cD) {
 		var index;
 		if ((cM == 12 && cD >= 21) || cM < 3 || (cM == 3 && cD <= 20)) {
@@ -40,15 +41,15 @@ export default function Season(props) {
 	return (
 		<div className="selectGroup">
 			<span className="currently">
-				Actualmente estás en {seasonEmoji[state.currentSeason]} {seasonName[state.currentSeason]}{" "}
+				Estás en <span aria-hidden="true">{seasonEmoji[state.currentSeason]}</span> {seasonName[state.currentSeason]}{" "}
 			</span>
-			<select aria-label="estación" className="seasonSelect" value={String(seasonIndex)} onChange={handleChange}>
+			<select aria-label="Estación" className="seasonSelect" value={String(seasonIndex)} onChange={handleChange}>
 				{seasonName.map((x, y) => (
 					<option key={y} value={y}>
-						{seasonEmoji[y]}
-						{x}
+						{seasonEmoji[y]} {x}
 					</option>
 				))}
+				{/* <option value="4">😎 todo</option> */}
 			</select>
 		</div>
 	);

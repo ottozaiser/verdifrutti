@@ -7,11 +7,11 @@ export default function Header() {
 				<div className="brand">
 					<h1>
 						<Link href="/">
-							<a>vertempo</a>
+							<a>🌿 vertempo</a>
 						</Link>
 					</h1>
 				</div>
-				<div className="tagline">Frutas y verduras en temporada</div>
+				<div className="tagline">Frutas y verduras de temporada en Argentina</div>
 			</div>
 		</header>
 	);
