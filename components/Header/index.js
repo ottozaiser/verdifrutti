@@ -6,9 +6,10 @@ export default function Header() {
 			<div className="container">
 				<div className="brand">
 					<h1>
-						<Link href="/">
-							<a>🌿 vertempo</a>
-						</Link>
+						🌿 vertempo
+						{/* <Link href="/">
+							<a></a>
+						</Link> */}
 					</h1>
 				</div>
 				<div className="tagline">Frutas y verduras de temporada en Argentina</div>
