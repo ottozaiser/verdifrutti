@@ -115,8 +115,6 @@ button:focus {
 	.container {
 		display: flex;
 		align-items: center;
-		// justify-content: space-between;
-		justify-content: center;
 		flex-wrap: wrap;
 		padding: 16px 0;
 	}
@@ -144,6 +142,45 @@ button:focus {
 			a {
 				margin-right: 0;
 			}
+		}
+	}
+}
+.made {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+.sugerencia {
+	align-items: flex-end;
+	margin-right: 20px;
+	position: relative;
+	.toggleSugerencia {
+		padding: 16px;
+	}
+	.opened {
+		background: green;
+	}
+	.sugeform {
+		background: #eee;
+		border-radius: 8px;
+		padding: 24px;
+		box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
+		position: absolute;
+		top: -240px;
+		right: 12px;
+		width: 300px;
+		height: 230px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		form {
+			width: 100%;
+		}
+		textarea {
+			margin-bottom: 16px;
+			width: 100%;
+			border-radius: 8px;
+			padding: 8px;
 		}
 	}
 }

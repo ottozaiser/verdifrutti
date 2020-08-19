@@ -62,7 +62,7 @@ export default function Vegetal(props) {
 									</span>
 								</li>
 							))}
-							{props.content ? <div className="card-text">{props.content}</div> : null}
+							{/* {props.content ? <div className="card-text">{props.content}</div> : null} */}
 						</div>
 						{props.link ? (
 							<a className="card-recipe-btn btn btn-ghost" href={props.link} target="_blank" rel="noopener noreferrer nofollow">

@@ -30,15 +30,14 @@ export default function Home() {
 		<div>
 			<Head>
 				<title>verdifrutti</title>
-				<html lang="es" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta name="keywords" content="frutas,verduras,temporada,argentina,estación,legumbres,comida" />
-				<meta name="description" property="og:description" content="Frutas y verduras de temporada en Argentina" />
 				<meta name="author" content="Otto" />
+				<meta property="og:description" content="Frutas y verduras de temporada en Argentina" />
 				<meta property="og:url" content="https://verdifrutti.netlify.app/" />
 				<meta property="og:site_name" content="verdifrutti" />
-				<meta property="og:type" content="website" />
 				<meta property="og:title" content="verdifrutti" />
+				<meta property="og:type" content="website" />
 				<meta property="og:image" content="https://verdifrutti.netlify.app/rrss.png" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@ottocapo" />
@@ -53,16 +52,14 @@ export default function Home() {
 			<Header />
 			<main className="container">
 				<Season seasonChange={onSeasonChange} />
-				<ul className="veggieGrid">
+				<div className="veggieGrid">
 					{allVegetables
 						.sort((a, b) => (a.title > b.title ? 1 : -1))
 						.filter((vf) => vf.season.includes(String(season)))
 						.map((vf, index) => (
-							<li key={index}>
-								<Vegetal title={vf.title} content={vf.content} link={vf.link} image={vf.image} season={vf.season} end={vf.end} />
-							</li>
+							<Vegetal key={index} title={vf.title} link={vf.link} image={vf.image} season={vf.season} end={vf.end} />
 						))}
-				</ul>
+				</div>
 			</main>
 			<Footer />
 		</div>
