@@ -29,17 +29,17 @@ export default function Home() {
 	return (
 		<div>
 			<Head>
-				<title>vertempo</title>
+				<title>verdifrutti</title>
 				<html lang="es" />
 				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
 				<meta name="keywords" content="frutas,verduras,temporada,argentina,estación,legumbres,comida" />
 				<meta name="description" property="og:description" content="Frutas y verduras de temporada en Argentina" />
 				<meta name="author" content="Otto" />
-				<meta property="og:url" content="https://vertempo.netlify.app/" />
-				<meta property="og:site_name" content="vertempo" />
+				<meta property="og:url" content="https://verdifrutti.netlify.app/" />
+				<meta property="og:site_name" content="verdifrutti" />
 				<meta property="og:type" content="website" />
-				<meta property="og:title" content="vertempo" />
-				<meta property="og:image" content="https://vertempo.netlify.app/rrss.png" />
+				<meta property="og:title" content="verdifrutti" />
+				<meta property="og:image" content="https://verdifrutti.netlify.app/rrss.png" />
 				<meta name="twitter:card" content="summary_large_image" />
 				<meta name="twitter:site" content="@ottocapo" />
 				<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

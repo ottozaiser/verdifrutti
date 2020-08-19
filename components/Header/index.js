@@ -6,7 +6,7 @@ export default function Header() {
 			<div className="container">
 				<div className="brand">
 					<h1>
-						🌿 vertempo
+						🌿 verdifrutti
 						{/* <Link href="/">
 							<a></a>
 						</Link> */}
