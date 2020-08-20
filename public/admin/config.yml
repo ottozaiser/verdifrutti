@@ -5,27 +5,6 @@ backend:
 media_folder: _data/media
 
 collections:
-  - name: "settings"
-    label: "Settings"
-    delete: false # Prevent users from deleting documents in this collection
-    editor:
-      preview: false
-    files:
-      - name: "general"
-        label: "Site Settings"
-        file: "public/_data/settings.json"
-        fields:
-          - { label: "Global title", name: "site_title", widget: "string" }
-      - name: "socialmedia"
-        label: "Social Media Settings"
-        file: "public/_data/socialmedia.json"
-        fields:
-          - label: "Social Network"
-            name: "socialitem"
-            widget: list
-            fields:
-              - { label: "Name", name: "name", widget: "string" }
-              - { label: "URL", name: "url", widget: "string" }
   - name: "verfrus"
     label: "Frutas y Verduras"
     delete: false # Prevent users from deleting documents in this collection
@@ -41,16 +20,39 @@ collections:
             widget: list
             fields:
               - { label: "Title", name: "title", widget: "string" }
-              - label: "Season"
-                name: "season"
-                widget: "select"
-                multiple: true
-                options:
-                  - { label: "Verano", value: "0" }
-                  - { label: "Otoño", value: "1" }
-                  - { label: "Invierno", value: "2" }
-                  - { label: "Primavera", value: "3" }
-              - { label: "End of season?", name: "end", widget: "boolean", default: false }
+              - label: "Type"
+                    name: "type"
+                    widget: "select"
+                    options:
+                      - { label: "Fruta" }
+                      - { label: "Verdura" }
+                      - { label: "Legumbre" }
+                      - { label: "Raíz" }
+                      - { label: "Hierba Aromática" }
+                      - { label: "Cereal" }
               - { label: "Content", name: "content", widget: "markdown", required: false }
               - { label: "Recipes Link", name: "link", widget: "string", required: false }
               - { label: "Image", name: "image", widget: "image", required: false }
+              - label: "Seasons"
+                name: "seasons"
+                widget: "object"
+                fields:
+                  - label: "Season"
+                    name: "season"
+                    widget: "select"
+                    options:
+                      - { label: "Verano", value: "0" }
+                      - { label: "Otoño", value: "1" }
+                      - { label: "Invierno", value: "2" }
+                      - { label: "Primavera", value: "3" }
+                  - label: "Type"
+                    name: "type"
+                    widget: "select"
+                    options:
+                      - { label: "All season", value: "0"  }
+                      - { label: "First part", value: "1"  }
+                      - { label: "Last part", value: "2"  }
+                    default: ["All season"]
+              - { label: "First month", name: "fdate", widget: "date", default: "", format: "M",required: false }
+              - { label: "Last month", name: "ldate", widget: "date", default: "", format: "M",required: false }
+
