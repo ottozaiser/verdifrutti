@@ -21,15 +21,15 @@ collections:
             fields:
               - { label: "Title", name: "title", widget: "string" }
               - label: "Type"
-                    name: "type"
-                    widget: "select"
-                    options:
-                      - { label: "Fruta" }
-                      - { label: "Verdura" }
-                      - { label: "Legumbre" }
-                      - { label: "Raíz" }
-                      - { label: "Hierba Aromática" }
-                      - { label: "Cereal" }
+                name: "type"
+                widget: "select"
+                options:
+                  - { label: "Fruta" }
+                  - { label: "Verdura" }
+                  - { label: "Legumbre" }
+                  - { label: "Raíz" }
+                  - { label: "Hierba Aromática" }
+                  - { label: "Cereal" }
               - { label: "Content", name: "content", widget: "markdown", required: false }
               - { label: "Recipes Link", name: "link", widget: "string", required: false }
               - { label: "Image", name: "image", widget: "image", required: false }
@@ -49,10 +49,9 @@ collections:
                     name: "type"
                     widget: "select"
                     options:
-                      - { label: "All season", value: "0"  }
-                      - { label: "First part", value: "1"  }
-                      - { label: "Last part", value: "2"  }
+                      - { label: "All season", value: "0" }
+                      - { label: "First part", value: "1" }
+                      - { label: "Last part", value: "2" }
                     default: ["All season"]
-              - { label: "First month", name: "fdate", widget: "date", default: "", format: "M",required: false }
-              - { label: "Last month", name: "ldate", widget: "date", default: "", format: "M",required: false }
-
+              - { label: "First month", name: "fdate", widget: "date", default: "", format: "M", required: false }
+              - { label: "Last month", name: "ldate", widget: "date", default: "", format: "M", required: false }
