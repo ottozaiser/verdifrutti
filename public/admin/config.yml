@@ -29,7 +29,7 @@ collections:
               - { label: "Image", name: "image", widget: "image", required: false }
               - label: "Seasons"
                 name: "seasons"
-                widget: "object"
+                widget: "list"
                 fields:
                   - label: "Season"
                     name: "season"
