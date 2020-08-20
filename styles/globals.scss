@@ -115,8 +115,14 @@ button:focus {
 	.container {
 		display: flex;
 		align-items: center;
+		justify-content: center;
+		position: relative;
 		flex-wrap: wrap;
 		padding: 16px 0;
+		margin:  0 16px;
+		@media (max-width: 400px) {
+			justify-content: flex-start;
+		}
 	}
 }
 .nav {
@@ -145,15 +151,13 @@ button:focus {
 		}
 	}
 }
-.made {
-	flex: 1;
+.made {	
 	display: flex;
 	justify-content: center;
 }
-.sugerencia {
-	align-items: flex-end;
-	margin-right: 20px;
-	position: relative;
+.sugerencia {	
+	right: 0;
+	position: absolute;
 	.toggleSugerencia {
 		padding: 16px;
 	}
@@ -167,7 +171,7 @@ button:focus {
 		box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.75);
 		position: absolute;
 		top: -240px;
-		right: 12px;
+		right: 0;
 		width: 300px;
 		height: 230px;
 		display: flex;
@@ -315,7 +319,7 @@ button:focus {
 				.card-seasons {
 					list-style-type: none;
 					.text {
-						text-transform: uppercase;
+						margin-left: 8px;
 					}
 				}
 			}
@@ -328,7 +332,11 @@ button:focus {
 		}
 	}
 }
-
+.currently{
+	.text{
+		margin-left: 4px;
+	}
+}
 .temporada {
 	text-align: center;
 	margin: 48px 0;

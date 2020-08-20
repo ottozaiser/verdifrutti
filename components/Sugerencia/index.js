@@ -1,5 +1,5 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Sugerencia() {
 	const [show, setShow] = useState(false);
@@ -56,6 +56,13 @@ export default function Sugerencia() {
 		setSend(false);
 		setState("Enviando...");
 	}
+	const inputRef = useRef(null);
+
+  useEffect(() => {
+    if (show) {
+      inputRef.current.focus();
+    }
+  }, [show]);
 
 	return (
 		<div className="sugerencia">
@@ -73,6 +80,7 @@ export default function Sugerencia() {
 									type="text-area"
 									aria-label="sugerencias"
 									name="sugerencia"
+									ref={inputRef} 
 									id="sugerencia"
 									placeholder="Ingrese comentario o sugerencia..."
 									rows="5"

@@ -41,7 +41,7 @@ export default function Season(props) {
 	return (
 		<div className="selectGroup">
 			<span className="currently">
-				Estás en <span aria-hidden="true">{seasonEmoji[state.currentSeason]}</span> {seasonName[state.currentSeason]}{" "}
+				Estás en <span aria-hidden="true">{seasonEmoji[state.currentSeason]}</span> <span class="text">{seasonName[state.currentSeason]}</span>
 			</span>
 			<select aria-label="Estación" className="seasonSelect" value={String(seasonIndex)} onChange={handleChange}>
 				{seasonName.map((x, y) => (
