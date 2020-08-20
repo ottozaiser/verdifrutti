@@ -23,13 +23,7 @@ collections:
               - label: "Type"
                 name: "type"
                 widget: "select"
-                options:
-                  - { label: "Fruta" }
-                  - { label: "Verdura" }
-                  - { label: "Legumbre" }
-                  - { label: "Raíz" }
-                  - { label: "Hierba Aromática" }
-                  - { label: "Cereal" }
+                options: ["Fruta", "Verdura", "Legumbre", "Raíz", "Hierba Aromática", "Cereal"]
               - { label: "Content", name: "content", widget: "markdown", required: false }
               - { label: "Recipes Link", name: "link", widget: "string", required: false }
               - { label: "Image", name: "image", widget: "image", required: false }
