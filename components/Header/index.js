@@ -6,7 +6,8 @@ export default function Header() {
 			<div className="container">
 				<div className="brand">
 					<h1>
-						🌿 verdifrutti
+						<span className="emoji">🌿</span>
+						verdi<span className="detail">frutti</span>
 						{/* <Link href="/">
 							<a></a>
 						</Link> */}

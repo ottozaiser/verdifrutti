@@ -37,9 +37,9 @@ export default function Vegetal(props) {
 		}
 	}
 	return (
-		<div className="card">
+		<div className="card" role="button" onClick={toggleClass} onKeyDown={onKeyPress} tabIndex="0">
 			<div className={`card-inner ${state.flipped ? "is-flipped" : ""}`}>
-				<div role="button" className="card-front" onClick={toggleClass} onKeyDown={onKeyPress} tabIndex="0">
+				<div className="card-front">
 					<div className="card-image" style={{ backgroundImage: `url('${props.image ? props.image : ""}')` }}></div>
 					<div className="card-content">
 						<h3 className="card-title">{props.title}</h3>
@@ -52,17 +52,12 @@ export default function Vegetal(props) {
 						</div>
 					</div>
 				</div>
-				<div
-					role="button"
-					className="card-back"
-					onClick={toggleClass}
-					onKeyDown={onKeyPress}
-					tabIndex="0"
-					style={{ backgroundImage: `url('${props.image ? props.image : ""}')` }}
-				>
+				<div className="card-back" style={{ backgroundImage: `url('${props.image ? props.image : ""}')` }}>
 					<div className="card-content">
-						<h3 className="card-title">{props.title}</h3>
-						<span className="card-tipo">{props.type}</span>
+						<div className="card-header">
+							<h3 className="card-title">{props.title}</h3>
+							{props.type ? <span className="card-type">{props.type}</span> : null}
+						</div>
 						<div className="card-temporada">
 							{availableSeasons.map((value, index) => (
 								<li key={index} className="card-seasons">
@@ -77,11 +72,11 @@ export default function Vegetal(props) {
 							))}
 							{/* {props.content ? <div className="card-text">{props.content}</div> : null} */}
 						</div>
-						{props.link ? (
+						{/* {props.link ? (
 							<a className="card-recipe-btn btn btn-ghost" href={props.link} target="_blank" rel="noopener noreferrer nofollow">
 								Recetas<span className="sr-only">con {props.title}</span>
 							</a>
-						) : null}
+						) : null} */}
 						{/* <button className="card-flip-btn btn" onClick={toggleClass}>
 							Dar vuelta <span className="sr-only">{props.title}</span>
 						</button> */}

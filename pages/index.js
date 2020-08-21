@@ -54,6 +54,7 @@ export default function Home() {
 			<Header />
 			<main className="container">
 				<Season seasonChange={onSeasonChange} />
+				{/* options: ["Fruta", "Verdura", ""Legumbre", "Fruto seco", "Hongo"] */}
 				<div className="veggieGrid">
 					{allVegetables
 						.sort((a, b) => (a.title > b.title ? 1 : -1))

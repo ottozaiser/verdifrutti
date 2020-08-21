@@ -23,6 +23,9 @@ export default function Footer() {
 					<Sugerencia />
 				</div>
 			</div>
+			<div className="disclaimer">
+				<b>Disclaimer:</b> Sabemos que ciertas verduras en realidad son frutas pero nuestra clasificación es arbitraria.
+			</div>
 		</footer>
 	);
 }

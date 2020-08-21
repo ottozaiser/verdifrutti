@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 html,
 body {
 	padding: 0;
@@ -22,6 +23,7 @@ a:focus,
 button:focus {
 	border-color: green;
 	outline: 0;
+	border-radius: 8px;
 	box-shadow: 0 0 0 0.2rem rgb(72, 187, 120, 0.5);
 }
 .sr-only {
@@ -81,23 +83,38 @@ button:focus {
 	color: #1c4219;
 	letter-spacing: -0.025em;
 	padding: 16px 0;
-	h1 {
-		font-weight: 600;
-		margin: 0;
-		font-size: 1.5em;
-		a {
-			text-decoration: none;
-			&:hover,
-			&:focus {
-				color: #cdffe2;
-			}
-		}
-	}
 	.container {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		flex-wrap: wrap;
+		.brand {
+			h1 {
+				letter-spacing: 0em;
+				margin: 0;
+				font-weight: normal;
+				font-family: "Concert One", cursive;
+				font-size: 2em;
+				a {
+					text-decoration: none;
+					&:hover,
+					&:focus {
+						color: #cdffe2;
+					}
+				}
+				span.detail {
+					color: green;
+				}
+			}
+			.emoji {
+				width: 50px;
+				display: inline-block;
+			}
+		}
+		.tagline {
+			padding: 8px 0;
+			margin-left: 50px;
+		}
 	}
 }
 
@@ -111,7 +128,6 @@ button:focus {
 .footer {
 	background-color: #eee;
 	margin-top: 48px;
-	padding: 16px 0;
 	.foot {
 		display: flex;
 		align-items: center;
@@ -123,6 +139,12 @@ button:focus {
 		@media (max-width: 400px) {
 			justify-content: flex-start;
 		}
+	}
+	.disclaimer {
+		background: #cecece;
+		font-size: 0.8em;
+		padding: 8px;
+		text-align: center;
 	}
 }
 .nav {
@@ -191,7 +213,7 @@ button:focus {
 
 .veggieGrid {
 	display: grid;
-	grid-gap: 10px;
+	grid-gap: 16px;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	margin: 0;
 	padding: 0;
@@ -200,6 +222,14 @@ button:focus {
 
 .card {
 	perspective: 1000px;
+	transition: transform 0.1s;
+
+	&:hover,
+	&:focus {
+		transform: translateY(-4px);
+		box-shadow: none;
+		border-radius: 8px;
+	}
 	h3 {
 		margin: 0;
 	}
@@ -312,12 +342,28 @@ button:focus {
 			display: flex;
 			flex-direction: column;
 			align-items: flex-start;
+			.card-header {
+				.card-title {
+					display: inline-block;
+					margin-right: 8px;
+				}
+				.card-type {
+					display: inline-block;
+					border: 1px solid #ccc;
+					font-size: 0.8em;
+					background: white;
+					padding: 4px 6px;
+					border-radius: 20px;
+					margin-top: 4px;
+				}
+			}
 			.card-temporada {
 				padding: 16px 0;
 				flex: 1;
 
 				.card-seasons {
 					list-style-type: none;
+					margin-bottom: 4px;
 					.text {
 						margin-left: 4px;
 					}
@@ -343,7 +389,7 @@ button:focus {
 }
 
 .selectGroup {
-	margin: 16px 0;
+	margin-bottom: 16px;
 }
 .seasonSelect {
 	width: 100%;
@@ -355,6 +401,9 @@ button:focus {
 	background-clip: padding-box;
 	border: 2px solid #48bb78;
 	background-color: #fff;
+	@media (max-width: 500px) {
+		font-size: 1.4em;
+	}
 	&:focus {
 		color: #495057;
 		background-color: #fff;
