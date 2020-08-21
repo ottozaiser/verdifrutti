@@ -3,13 +3,19 @@ import Head from "next/head";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Season from "../components/Season";
+import Filtro from "../components/Filtro";
 import Vegetal from "../components/Vegetal";
 import axios from "axios";
+import * as Constants from "../constants";
 
 export default function Home() {
 	const [season, setSeason] = useState();
+	const [filtro, setFilter] = useState(Constants.vfType.length);
 	function onSeasonChange(seasonIndex) {
 		setSeason(seasonIndex);
+	}
+	function onFilterChange(filterIndex) {
+		setFilter(filterIndex);
 	}
 
 	const [allVegetables, setAllVegetables] = useState([]);
@@ -20,8 +26,6 @@ export default function Home() {
 			.then((res) => {
 				const data = res.data.verfru;
 				setAllVegetables(data);
-
-				var teta = data.filter((vf) => Object.keys(vf.seasons).some((k) => console.log(vf.seasons[k].season.includes("choto"))));
 			})
 			.catch((error) => {
 				console.log(error);
@@ -54,14 +58,17 @@ export default function Home() {
 			<Header />
 			<main className="container">
 				<Season seasonChange={onSeasonChange} />
+				{/* <Filtro filterChange={onFilterChange} /> */}
 				{/* options: ["Fruta", "Verdura", ""Legumbre", "Fruto seco", "Hongo"] */}
 				<div className="veggieGrid">
 					{allVegetables
 						.sort((a, b) => (a.title > b.title ? 1 : -1))
-						// .filter((vf) => vf.seasons.includes(String(season)))
+						// .filter((vf) => vf.type == Constants.vfType[filtro] || filtro == Constants.vfType.length)
 						.filter((vf) => Object.keys(vf.seasons).some((k) => vf.seasons[k].season.includes(String(season))) || season == 4)
 						.map((vf, index) => (
-							<Vegetal key={index} title={vf.title} link={vf.link} image={vf.image} seasons={vf.seasons} type={vf.type} end={vf.end} />
+							<div key={index}>
+								<Vegetal title={vf.title} link={vf.link} image={vf.image} seasons={vf.seasons} type={vf.type} />
+							</div>
 						))}
 				</div>
 			</main>
