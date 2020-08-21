@@ -24,7 +24,7 @@ collections:
                 name: "type"
                 widget: "select"
                 required: false
-                options: ["Fruta", "Verdura", "Legumbre", "Raíz", "Hierba Aromática", "Cereal"]
+                options: ["Fruta", "Verdura", "Legumbre", "Fruto seco", "Raíz", "Hierba Aromática", "Cereal"]
               - { label: "Content", name: "content", widget: "markdown", required: false }
               - { label: "Recipes Link", name: "link", widget: "string", required: false }
               - { label: "Image", name: "image", widget: "image", required: false }

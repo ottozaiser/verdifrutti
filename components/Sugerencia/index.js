@@ -58,16 +58,16 @@ export default function Sugerencia() {
 	}
 	const inputRef = useRef(null);
 
-  useEffect(() => {
-    if (show) {
-      inputRef.current.focus();
-    }
-  }, [show]);
+	useEffect(() => {
+		if (show) {
+			inputRef.current.focus();
+		}
+	}, [show]);
 
 	return (
 		<div className="sugerencia">
 			<button onClick={toggle} className={"toggleSugerencia btn btn-ghost " + (show ? "opened" : "")}>
-				💬 <span class="sr-only">Sugerencias</span>
+				💬 <span className="sr-only">Sugerencias</span>
 			</button>
 			{show ? (
 				<div className="sugeform">
@@ -80,7 +80,7 @@ export default function Sugerencia() {
 									type="text-area"
 									aria-label="sugerencias"
 									name="sugerencia"
-									ref={inputRef} 
+									ref={inputRef}
 									id="sugerencia"
 									placeholder="Ingrese comentario o sugerencia..."
 									rows="5"

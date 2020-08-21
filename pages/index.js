@@ -20,6 +20,8 @@ export default function Home() {
 			.then((res) => {
 				const data = res.data.verfru;
 				setAllVegetables(data);
+
+				var teta = data.filter((vf) => Object.keys(vf.seasons).some((k) => console.log(vf.seasons[k].season.includes("choto"))));
 			})
 			.catch((error) => {
 				console.log(error);
@@ -55,9 +57,10 @@ export default function Home() {
 				<div className="veggieGrid">
 					{allVegetables
 						.sort((a, b) => (a.title > b.title ? 1 : -1))
-						.filter((vf) => vf.season.includes(String(season)))
+						// .filter((vf) => vf.seasons.includes(String(season)))
+						.filter((vf) => Object.keys(vf.seasons).some((k) => vf.seasons[k].season.includes(String(season))) || season == 4)
 						.map((vf, index) => (
-							<Vegetal key={index} title={vf.title} link={vf.link} image={vf.image} season={vf.season} end={vf.end} />
+							<Vegetal key={index} title={vf.title} link={vf.link} image={vf.image} seasons={vf.seasons} type={vf.type} end={vf.end} />
 						))}
 				</div>
 			</main>

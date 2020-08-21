@@ -49,7 +49,7 @@ export default function Season(props) {
 						{seasonEmoji[y]} {x}
 					</option>
 				))}
-				{/* <option value="4">😎 todo</option> */}
+				<option value="4">😎 todo</option>
 			</select>
 		</div>
 	);

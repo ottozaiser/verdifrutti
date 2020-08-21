@@ -1,1258 +1,1562 @@
 {
-  "verfru": [
-    {
-      "season": [
-        "0"
-      ],
-      "seasons": [
-        {
-          "when": "0",
-          "season": "0"
-        },
-        {
-          "when": "1",
-          "season": "3"
-        }
-      ],
-      "fdate": "8",
-      "title": "Tomates",
-      "content": "",
-      "ldate": "8",
-      "type": "Fruta",
-      "link": "https://cookpad.com/ar/buscar/tomate",
-      "end": false,
-      "image": "/_data/media/tomate.png"
-    },
-    {
-      "title": "Morrones",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/morr%C3%B3n",
-      "image": "/_data/media/morron.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Pimientos",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/pimiento",
-      "image": "/_data/media/pimiento.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Berenjenas",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/berenjena",
-      "image": "/_data/media/berenjena.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Papas",
-      "season": [
-        "0",
-        "1"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/papas",
-      "image": "/_data/media/papa.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Choclo",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/choclo.png",
-      "link": "https://cookpad.com/ar/buscar/choclo",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Hierbas aromáticas",
-      "season": [
-        "0",
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/hierbaaromatica.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Chauchas",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/chaucha.png",
-      "link": "https://cookpad.com/ar/buscar/chaucha",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Zucchini",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/zuccini.png",
-      "link": "https://cookpad.com/ar/buscar/zucchini",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Pepino",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/pepino.png",
-      "link": "https://cookpad.com/ar/buscar/pepino",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Melón",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/mel%C3%B3n",
-      "image": "/_data/media/melon.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Zapallito",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/zapallito",
-      "image": "/_data/media/zapallito.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Uchuva",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/uchuva",
-      "image": "/_data/media/uchuva.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Cerezas",
-      "season": [
-        "0",
-        "3"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/cereza",
-      "image": "/_data/media/cereza.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Sandía",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "link": "https://cookpad.com/ar/buscar/sand%C3%ADa",
-      "image": "/_data/media/sandia.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Damascos",
-      "season": [
-        "0",
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/damasco.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Duraznos",
-      "season": [
-        "0",
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/durazno.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Ciruelas",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/ciruela.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Pelones",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/pelon.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Sauco",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/sauco.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Casís",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/casis.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Frambuesa",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/frambuesa.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Moras",
-      "season": [
-        "0",
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/mora.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Banana",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/banana.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Grosellas",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/grosella.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Higo",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/higo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Maracuyá",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/maracuya.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Ananá",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/anana.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Mango",
-      "season": [
-        "0"
-      ],
-      "end": false,
-      "image": "/_data/media/mango.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Peras",
-      "season": [
-        "0"
-      ],
-      "end": true,
-      "image": "/_data/media/papa.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Manzanas",
-      "season": [
-        "0"
-      ],
-      "end": true,
-      "image": "/_data/media/manzana.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Rosella",
-      "season": [
-        "0"
-      ],
-      "end": true,
-      "image": "/_data/media/rosella.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Ruibarbo",
-      "season": [
-        "0"
-      ],
-      "end": true,
-      "image": "/_data/media/ruibarbo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Uvas",
-      "season": [
-        "0"
-      ],
-      "end": true,
-      "image": "/_data/media/uva.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Tomate de árbol",
-      "season": [
-        "0"
-      ],
-      "end": true,
-      "image": "/_data/media/tomatedearbol.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Membrillo",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/membrillo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Zapallos y calabazas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/zapallo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Cayote",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/cayote.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Caqui",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/caqui.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Kiwi",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/kiwi.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Mamón/Papaya",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/mamonpapaya.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Rosa mosqueta",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/rosamosqueta.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Guayaba",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/guayaba.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Carambola",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/carambola.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Tuna",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/tuna.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Feijoa",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/feijoa.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Nashi",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/nashi.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Castañas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/castania.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Paltas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/palta.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Granadas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/granada.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Aceitunas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/aceituna.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Okra",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/okra.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Maní",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/mani.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Calahorras",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/calahorra.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Ají vinagre",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/ajivinagre.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Porotos frescos",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/porotos.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Caña de azucar",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/canadeazucar.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Radiccio",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/radiccio.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Achicoria",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/achicoria.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Chaucha japonesa",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/chauchajaponesa.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Mandioca",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/mandioca.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Endivias",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/endivias.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Borraja",
-      "season": [
-        "1",
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/borraja.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Topinambur",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/topinambur.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Rúcula",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/rucula.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Acedera",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/acedera.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Escarolas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/escarola.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Berros",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/berro.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Nabiza",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/nabiza.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Cúrcuma",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/curcuma.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Gírgolas",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/girgola.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Portobello",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/portobello.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Shitake",
-      "season": [
-        "1"
-      ],
-      "end": false,
-      "image": "/_data/media/shitake.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Dátiles",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/datiles.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Avellanas",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/avellana.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Almendras",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/almendra.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Pistachos",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/pistacho.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Nueces",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/nuez.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Mandarinas",
-      "season": [
-        "1",
-        "2"
-      ],
-      "end": true,
-      "image": "/_data/media/mandarina.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Batata y boniato",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/batata.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Acelgas",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/acelga.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Apio",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/apio.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Remolachas",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/remolacha.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Zanahorias",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/zanahoria.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Hinojos",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/hinojo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Rabanitos",
-      "season": [
-        "1"
-      ],
-      "end": true,
-      "image": "/_data/media/rabanito.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Naranjas",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/naranja.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Naranjas Sanguinas",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/naranjasanguina.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Pomelos",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/pomelo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Limón",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/limon.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Limón Tahití",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/limontahiti.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Lima dulce",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/limadulce.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Espinaca",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/espinaca.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Apionabo",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/apionabo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Quinotos",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/quinoto.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Pastinaca",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/pastinaca.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Cardo",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/cardo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Lechugas",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/lechuga.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Nabo",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/nabo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Romanesco",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/romanesco.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Brócoli",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/brocoli.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Coliflor",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/coliflor.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Kale",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/kale.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Mizuna",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/mizuna.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Mostaza",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/mostaza.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Hakusay",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/hakusay.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Repollo blanco y colorado",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/repollo.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Acelga japonesa",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/acelgajaponesa.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Repollitos de bruselas",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/repollitobruselas.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Berza",
-      "season": [
-        "2"
-      ],
-      "end": false,
-      "image": "/_data/media/berza.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Alcaucil",
-      "season": [
-        "2"
-      ],
-      "end": true,
-      "image": "/_data/media/alcaucil.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Frutillas",
-      "season": [
-        "2",
-        "3"
-      ],
-      "end": true,
-      "image": "/_data/media/frutilla.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Habas",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/haba.png",
-      "fdate": "",
-      "ldate": ""
-    },
-    {
-      "title": "Arvejas",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/arveja.png",
-      "fdate": ""
-    },
-    {
-      "title": "Cebolla de verdeo",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/cebollaverdeo.png"
-    },
-    {
-      "title": "Cebolla rosa",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/cebollarosa.png"
-    },
-    {
-      "title": "Cebolla blanca",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/cebollablanca.png"
-    },
-    {
-      "title": "Puerro",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/puerro.png"
-    },
-    {
-      "title": "Ajo",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/ajo.png"
-    },
-    {
-      "title": "Espárragos",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/esparrago.png"
-    },
-    {
-      "title": "Echalote",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/echalote.png"
-    },
-    {
-      "title": "Arándanos",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/arandanos.png"
-    },
-    {
-      "title": "Nísperos",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/nispero.png"
-    },
-    {
-      "title": "Alcaparras",
-      "season": [
-        "3"
-      ],
-      "end": false,
-      "image": "/_data/media/alcaparra.png"
-    }
-  ]
+	"verfru": [
+		{
+			"title": "Tomates",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"content": "",
+			"fdate": "8",
+			"ldate": "8",
+			"type": "Fruta",
+			"link": "https://cookpad.com/ar/buscar/tomate",
+			"image": "/_data/media/tomate.png"
+		},
+		{
+			"title": "Morrones",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/morr%C3%B3n",
+			"image": "/_data/media/morron.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Pimientos",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/pimiento",
+			"image": "/_data/media/pimiento.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Berenjenas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/berenjena",
+			"image": "/_data/media/berenjena.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Papas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				},
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/papas",
+			"image": "/_data/media/papa.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Choclo",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/choclo.png",
+			"link": "https://cookpad.com/ar/buscar/choclo",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Hierbas aromáticas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				},
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/hierbaaromatica.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Chauchas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/chaucha.png",
+			"link": "https://cookpad.com/ar/buscar/chaucha",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Zucchini",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/zuccini.png",
+			"link": "https://cookpad.com/ar/buscar/zucchini",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Pepino",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/pepino.png",
+			"link": "https://cookpad.com/ar/buscar/pepino",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Melón",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/mel%C3%B3n",
+			"image": "/_data/media/melon.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Zapallito",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/zapallito",
+			"image": "/_data/media/zapallito.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Uchuva",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/uchuva",
+			"image": "/_data/media/uchuva.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Cerezas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "3"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/cereza",
+			"image": "/_data/media/cereza.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Sandía",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"link": "https://cookpad.com/ar/buscar/sand%C3%ADa",
+			"image": "/_data/media/sandia.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Damascos",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				},
+				{
+					"when": "2",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/damasco.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Duraznos",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				},
+				{
+					"when": "2",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/durazno.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Ciruelas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/ciruela.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Pelones",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/pelon.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Sauco",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/sauco.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Casís",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/casis.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Frambuesa",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/frambuesa.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Moras",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				},
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/mora.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Banana",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/banana.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Grosellas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/grosella.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Higo",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/higo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Maracuyá",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/maracuya.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Ananá",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/anana.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Mango",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/mango.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Peras",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/papa.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Manzanas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/manzana.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Rosella",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/rosella.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Ruibarbo",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/ruibarbo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Uvas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/uva.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Tomate de árbol",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "0"
+				}
+			],
+			"image": "/_data/media/tomatedearbol.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Membrillo",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/membrillo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Zapallos y calabazas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/zapallo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Cayote",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/cayote.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Caqui",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/caqui.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Kiwi",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/kiwi.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Mamón/Papaya",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/mamonpapaya.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Rosa mosqueta",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/rosamosqueta.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Guayaba",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/guayaba.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Carambola",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/carambola.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Tuna",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/tuna.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Feijoa",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/feijoa.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Nashi",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/nashi.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Castañas",
+			"type": "Fruto seco",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/castania.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Paltas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/palta.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Granadas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/granada.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Aceitunas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/aceituna.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Okra",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/okra.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Maní",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/mani.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Calahorras",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/calahorra.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Ají vinagre",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/ajivinagre.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Porotos frescos",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/porotos.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Caña de azucar",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/canadeazucar.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Radiccio",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/radiccio.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Achicoria",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/achicoria.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Chaucha japonesa",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/chauchajaponesa.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Mandioca",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/mandioca.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Endivias",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/endivias.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Borraja",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				},
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/borraja.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Topinambur",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/topinambur.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Rúcula",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/rucula.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Acedera",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/acedera.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Escarolas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/escarola.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Berros",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/berro.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Nabiza",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/nabiza.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Cúrcuma",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/curcuma.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Gírgolas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/girgola.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Portobello",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/portobello.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Shitake",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/shitake.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Dátiles",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/datiles.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Avellanas",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/avellana.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Almendras",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/almendra.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Pistachos",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/pistacho.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Nueces",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/nuez.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Mandarinas",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				},
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"type": "Fruta",
+			"image": "/_data/media/mandarina.png",
+			"link": "https://cookpad.com/ar/buscar/mandarina",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Batata y boniato",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/batata.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Acelgas",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/acelga.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Apio",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/apio.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Remolachas",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/remolacha.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Zanahorias",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/zanahoria.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Hinojos",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/hinojo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Rabanitos",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "1"
+				}
+			],
+			"image": "/_data/media/rabanito.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Naranjas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/naranja.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Naranjas Sanguinas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/naranjasanguina.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Pomelos",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/pomelo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Limón",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/limon.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Limón Tahití",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/limontahiti.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Lima dulce",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/limadulce.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Espinaca",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/espinaca.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Apionabo",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/apionabo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Quinotos",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/quinoto.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Pastinaca",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/pastinaca.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Cardo",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/cardo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Lechugas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/lechuga.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Nabo",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/nabo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Romanesco",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/romanesco.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Brócoli",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/brocoli.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Coliflor",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/coliflor.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Kale",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/kale.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Mizuna",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/mizuna.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Mostaza",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/mostaza.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Hakusay",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/hakusay.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Repollo blanco y colorado",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/repollo.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Acelga japonesa",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/acelgajaponesa.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Repollitos de bruselas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/repollitobruselas.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Berza",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/berza.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Alcaucil",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "2"
+				}
+			],
+			"image": "/_data/media/alcaucil.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Frutillas",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "2",
+					"season": "2"
+				},
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/frutilla.png",
+			"ldate": ""
+		},
+		{
+			"title": "Habas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/haba.png",
+			"fdate": "",
+			"ldate": ""
+		},
+		{
+			"title": "Arvejas",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/arveja.png",
+			"fdate": ""
+		},
+		{
+			"title": "Cebolla de verdeo",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/cebollaverdeo.png"
+		},
+		{
+			"title": "Cebolla rosa",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/cebollarosa.png"
+		},
+		{
+			"title": "Cebolla blanca",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/cebollablanca.png"
+		},
+		{
+			"title": "Puerro",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/puerro.png"
+		},
+		{
+			"title": "Ajo",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/ajo.png"
+		},
+		{
+			"title": "Espárragos",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/esparrago.png"
+		},
+		{
+			"title": "Echalote",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/echalote.png"
+		},
+		{
+			"title": "Arándanos",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/arandanos.png"
+		},
+		{
+			"title": "Nísperos",
+			"type": "Fruta",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/nispero.png"
+		},
+		{
+			"title": "Alcaparras",
+			"seasons": [
+				{
+					"when": "0",
+					"season": "3"
+				}
+			],
+			"image": "/_data/media/alcaparra.png"
+		}
+	]
 }
