@@ -10,7 +10,7 @@ import * as Constants from "../constants";
 
 export default function Home() {
 	const [season, setSeason] = useState();
-	const [filtro, setFilter] = useState(Constants.vfType.length);
+	const [filtro, setFilter] = useState("todo");
 	function onSeasonChange(seasonIndex) {
 		setSeason(seasonIndex);
 	}
@@ -19,18 +19,40 @@ export default function Home() {
 	}
 
 	const [allVegetables, setAllVegetables] = useState([]);
-
+	// var allVegetables = [];
 	useEffect(() => {
 		axios
-			.get(`/_data/verfru.json`)
+			.get(`/_data/data.json`)
 			.then((res) => {
-				const data = res.data.verfru;
+				const data = res.data.data;
 				setAllVegetables(data);
 			})
 			.catch((error) => {
 				console.log(error);
 			});
 	}, []);
+
+	function getUniques(from) {
+		var uq = [];
+		from.forEach(function (item) {
+			if (uq.indexOf(item.type) < 0 && item.type !== undefined) {
+				uq.push(item.type);
+			}
+		});
+		return uq;
+	}
+
+	var filters = allVegetables
+		.sort((a, b) => (a.type > b.type ? 1 : -1))
+		.filter((vf) => Object.keys(vf.seasons).some((k) => vf.seasons[k].season.includes(String(season))) || season == 4);
+
+	var uniqueFilters = [];
+	uniqueFilters = getUniques(filters);
+
+	var veggies = allVegetables
+		.sort((a, b) => (a.title > b.title ? 1 : -1))
+		.filter((vf) => Object.keys(vf.seasons).some((k) => vf.seasons[k].season.includes(String(season))) || season == 4)
+		.filter((vf) => filtro == "todo" || filtro == vf.type);
 
 	return (
 		<div>
@@ -58,18 +80,11 @@ export default function Home() {
 			<Header />
 			<main className="container">
 				<Season seasonChange={onSeasonChange} />
-				{/* <Filtro filterChange={onFilterChange} /> */}
-				{/* options: ["Fruta", "Verdura", ""Legumbre", "Fruto seco", "Hongo"] */}
+				<Filtro types={uniqueFilters} filterChange={onFilterChange} />
 				<div className="veggieGrid">
-					{allVegetables
-						.sort((a, b) => (a.title > b.title ? 1 : -1))
-						// .filter((vf) => vf.type == Constants.vfType[filtro] || filtro == Constants.vfType.length)
-						.filter((vf) => Object.keys(vf.seasons).some((k) => vf.seasons[k].season.includes(String(season))) || season == 4)
-						.map((vf, index) => (
-							<div key={index}>
-								<Vegetal title={vf.title} link={vf.link} image={vf.image} seasons={vf.seasons} type={vf.type} />
-							</div>
-						))}
+					{veggies.map((vf, index) => {
+						return <Vegetal {...vf} key={index} />;
+					})}
 				</div>
 			</main>
 			<Footer />

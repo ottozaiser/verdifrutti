@@ -388,7 +388,6 @@ button:focus {
 }
 
 .selectGroup {
-	margin-bottom: 16px;
 }
 .seasonSelect {
 	width: 100%;
@@ -413,10 +412,31 @@ button:focus {
 }
 
 .filtro {
-	display: flex;
-	button {
-		width: 100%;
-		padding: 16px 8px;
+	text-align: center;
+	margin-bottom: 100px;
+	@media (min-width: 600px) {
+		display: flex;
 	}
+	button {
+		margin-bottom: 8px;
+		@media (min-width: 600px) {
+			width: 100%;
+		}
+		padding: 16px 16px;
+		margin-right: 8px;
+
+		background: white;
+		border-radius: 8px;
+		border: 1px solid lightgrey;
+		&:last-child {
+			margin-right: 0px;
+		}
+		&:disabled {
+			background: #017401;
+			color: white;
+			border-color: #017401;
+		}
+	}
+
 	margin-bottom: 16px;
 }

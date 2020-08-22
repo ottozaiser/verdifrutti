@@ -1,26 +1,28 @@
 import { useState, useEffect } from "react";
-import * as Constants from "../../constants";
 
 export default function Filtro(props) {
-	const vfType = Constants.vfType;
+	const type = props.types;
+	const todo = "todo";
 	useEffect(() => {
-		handleClick(Constants.vfType.length);
+		document.getElementById("btn" + type.length).disabled = "disabled";
 	}, []);
-	function handleClick(i) {
-		for (let index = 0; index < vfType.length + 1; index++) {
+	function handleClick(y, i) {
+		for (let index = 0; index < type.length + 1; index++) {
 			document.getElementById("btn" + index).disabled = null;
 		}
 		document.getElementById("btn" + i).disabled = "disabled";
-		props.filterChange(i);
+		var t;
+		y == todo ? (t = todo) : (t = y);
+		props.filterChange(t);
 	}
 	return (
 		<div className="filtro">
-			<button onClick={() => handleClick(vfType.length)} id={`btn` + vfType.length}>
+			<button onClick={() => handleClick(todo, type.length)} id={`btn` + type.length}>
 				Todo
 			</button>
-			{vfType.map((x, y) => (
-				<button onClick={() => handleClick(y)} id={`btn` + y} key={y}>
-					{vfType[y]}
+			{type.map((x, y) => (
+				<button onClick={() => handleClick(x, y)} id={`btn` + y} key={y}>
+					{x}
 				</button>
 			))}
 		</div>
