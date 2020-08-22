@@ -6,13 +6,13 @@ import Season from "../components/Season";
 import Filtro from "../components/Filtro";
 import Vegetal from "../components/Vegetal";
 import axios from "axios";
-import * as Constants from "../constants";
 
 export default function Home() {
 	const [season, setSeason] = useState();
 	const [filtro, setFilter] = useState("todo");
 	function onSeasonChange(seasonIndex) {
 		setSeason(seasonIndex);
+		setFilter("todo");
 	}
 	function onFilterChange(filterIndex) {
 		setFilter(filterIndex);
@@ -80,7 +80,7 @@ export default function Home() {
 			<Header />
 			<main className="container">
 				<Season seasonChange={onSeasonChange} />
-				<Filtro types={uniqueFilters} filterChange={onFilterChange} />
+				<Filtro types={uniqueFilters} filterChange={onFilterChange} filtro={filtro} />
 				<div className="veggieGrid">
 					{veggies.map((vf, index) => {
 						return <Vegetal {...vf} key={index} />;

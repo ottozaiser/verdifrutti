@@ -4,8 +4,10 @@ export default function Filtro(props) {
 	const type = props.types;
 	const todo = "todo";
 	useEffect(() => {
-		document.getElementById("btn" + type.length).disabled = "disabled";
-	}, []);
+		if (props.filtro == todo || props.filtro === undefined) {
+			handleClick(todo, type.length);
+		}
+	});
 	function handleClick(y, i) {
 		for (let index = 0; index < type.length + 1; index++) {
 			document.getElementById("btn" + index).disabled = null;
@@ -15,6 +17,7 @@ export default function Filtro(props) {
 		y == todo ? (t = todo) : (t = y);
 		props.filterChange(t);
 	}
+	function reset() {}
 	return (
 		<div className="filtro">
 			<button onClick={() => handleClick(todo, type.length)} id={`btn` + type.length}>

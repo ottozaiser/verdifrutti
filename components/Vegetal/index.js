@@ -58,19 +58,21 @@ export default function Vegetal(props) {
 							<h3 className="card-title">{props.title}</h3>
 							{props.type ? <span className="card-type">{props.type}</span> : null}
 						</div>
+						{/* {props.content ? <div className="card-text">{props.content}</div> : null} */}
 						<div className="card-temporada">
-							{availableSeasons.map((value, index) => (
-								<li key={index} className="card-seasons">
-									<span className="emoji" aria-hidden="true">
-										{seasonEmoji[availableSeasons[index].season]}
-									</span>
-									<span className="text">
-										{havePre(availableSeasons[index].when)}
-										{seasonName[availableSeasons[index].season]}
-									</span>
-								</li>
-							))}
-							{/* {props.content ? <div className="card-text">{props.content}</div> : null} */}
+							<ul>
+								{availableSeasons.map((value, index) => (
+									<li key={index} className="card-seasons">
+										<span className="emoji" aria-hidden="true">
+											{seasonEmoji[availableSeasons[index].season]}
+										</span>
+										<span className="text">
+											{havePre(availableSeasons[index].when)}
+											{seasonName[availableSeasons[index].season]}
+										</span>
+									</li>
+								))}
+							</ul>
 						</div>
 						{/* {props.link ? (
 							<a className="card-recipe-btn btn btn-ghost" href={props.link} target="_blank" rel="noopener noreferrer nofollow">
