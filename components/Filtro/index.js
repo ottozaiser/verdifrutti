@@ -8,11 +8,7 @@ export default function Filtro(props) {
 			handleClick(todo, type.length);
 		}
 	});
-	function handleClick(y, i) {
-		for (let index = 0; index < type.length + 1; index++) {
-			document.getElementById("btn" + index).disabled = null;
-		}
-		document.getElementById("btn" + i).disabled = "disabled";
+	function handleClick(y) {
 		var t;
 		y == todo ? (t = todo) : (t = y);
 		props.filterChange(t);
@@ -20,11 +16,11 @@ export default function Filtro(props) {
 	function reset() {}
 	return (
 		<div className="filtro">
-			<button onClick={() => handleClick(todo, type.length)} id={`btn` + type.length}>
+			<button onClick={() => handleClick(todo)} disabled={props.filtro == todo}>
 				Todo
 			</button>
 			{type.map((x, y) => (
-				<button onClick={() => handleClick(x, y)} id={`btn` + y} key={y}>
+				<button onClick={() => handleClick(type[y])} key={y} disabled={props.filtro == type[y]}>
 					{x}
 				</button>
 			))}

@@ -442,6 +442,7 @@ button:focus {
 		&:disabled {
 			background: #017401;
 			color: white;
+			cursor: auto;
 			border-color: #017401;
 		}
 	}
